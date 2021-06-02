@@ -8,6 +8,9 @@
 #include <iostream>
 #include "IntSLList.hpp"
 #include "GenDLList.hpp"
+#include <list>
+#include <algorithm>
+#include <functional>
 
 using namespace std;
 

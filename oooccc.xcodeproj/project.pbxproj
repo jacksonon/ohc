@@ -12,6 +12,10 @@
 		1407E82A2666549C00C2957F /* GenSkipL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1407E8282666549C00C2957F /* GenSkipL.cpp */; };
 		140A1B1526661B8E0056E1BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 140A1B1426661B8E0056E1BE /* main.cpp */; };
 		140A1B1D26661C960056E1BE /* IntSLList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 140A1B1B26661C960056E1BE /* IntSLList.cpp */; };
+		141B1FE726678A3800EB2AAE /* GenStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141B1FE526678A3800EB2AAE /* GenStack.cpp */; };
+		141B1FEA26678B7900EB2AAE /* GenListStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141B1FE826678B7900EB2AAE /* GenListStack.cpp */; };
+		141B1FED26678E6100EB2AAE /* GenArrayQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141B1FEB26678E6100EB2AAE /* GenArrayQueue.cpp */; };
+		141B1FF0266790B500EB2AAE /* GenQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141B1FEE266790B500EB2AAE /* GenQueue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +40,14 @@
 		140A1B1426661B8E0056E1BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		140A1B1B26661C960056E1BE /* IntSLList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntSLList.cpp; sourceTree = "<group>"; };
 		140A1B1C26661C960056E1BE /* IntSLList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntSLList.hpp; sourceTree = "<group>"; };
+		141B1FE526678A3800EB2AAE /* GenStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenStack.cpp; sourceTree = "<group>"; };
+		141B1FE626678A3800EB2AAE /* GenStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenStack.hpp; sourceTree = "<group>"; };
+		141B1FE826678B7900EB2AAE /* GenListStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenListStack.cpp; sourceTree = "<group>"; };
+		141B1FE926678B7900EB2AAE /* GenListStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenListStack.hpp; sourceTree = "<group>"; };
+		141B1FEB26678E6100EB2AAE /* GenArrayQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenArrayQueue.cpp; sourceTree = "<group>"; };
+		141B1FEC26678E6100EB2AAE /* GenArrayQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenArrayQueue.hpp; sourceTree = "<group>"; };
+		141B1FEE266790B500EB2AAE /* GenQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenQueue.cpp; sourceTree = "<group>"; };
+		141B1FEF266790B500EB2AAE /* GenQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenQueue.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,14 @@
 				1407E8262666412800C2957F /* GenDLList-impl.cpp */,
 				1407E8282666549C00C2957F /* GenSkipL.cpp */,
 				1407E8292666549C00C2957F /* GenSkipL.hpp */,
+				141B1FE526678A3800EB2AAE /* GenStack.cpp */,
+				141B1FE626678A3800EB2AAE /* GenStack.hpp */,
+				141B1FE826678B7900EB2AAE /* GenListStack.cpp */,
+				141B1FE926678B7900EB2AAE /* GenListStack.hpp */,
+				141B1FEB26678E6100EB2AAE /* GenArrayQueue.cpp */,
+				141B1FEC26678E6100EB2AAE /* GenArrayQueue.hpp */,
+				141B1FEE266790B500EB2AAE /* GenQueue.cpp */,
+				141B1FEF266790B500EB2AAE /* GenQueue.hpp */,
 			);
 			path = oooccc;
 			sourceTree = "<group>";
@@ -136,11 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141B1FED26678E6100EB2AAE /* GenArrayQueue.cpp in Sources */,
 				1407E8272666412800C2957F /* GenDLList-impl.cpp in Sources */,
 				140A1B1D26661C960056E1BE /* IntSLList.cpp in Sources */,
 				1407E82A2666549C00C2957F /* GenSkipL.cpp in Sources */,
+				141B1FF0266790B500EB2AAE /* GenQueue.cpp in Sources */,
 				140A1B1526661B8E0056E1BE /* main.cpp in Sources */,
+				141B1FEA26678B7900EB2AAE /* GenListStack.cpp in Sources */,
 				1407E825266636CF00C2957F /* GenDLList.cpp in Sources */,
+				141B1FE726678A3800EB2AAE /* GenStack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
