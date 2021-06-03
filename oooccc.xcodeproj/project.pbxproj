@@ -16,6 +16,7 @@
 		141B1FEA26678B7900EB2AAE /* GenListStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141B1FE826678B7900EB2AAE /* GenListStack.cpp */; };
 		141B1FED26678E6100EB2AAE /* GenArrayQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141B1FEB26678E6100EB2AAE /* GenArrayQueue.cpp */; };
 		141B1FF0266790B500EB2AAE /* GenQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141B1FEE266790B500EB2AAE /* GenQueue.cpp */; };
+		141B1FF52668DC2000EB2AAE /* ChessBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141B1FF32668DC2000EB2AAE /* ChessBoard.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,8 @@
 		141B1FEC26678E6100EB2AAE /* GenArrayQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenArrayQueue.hpp; sourceTree = "<group>"; };
 		141B1FEE266790B500EB2AAE /* GenQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenQueue.cpp; sourceTree = "<group>"; };
 		141B1FEF266790B500EB2AAE /* GenQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenQueue.hpp; sourceTree = "<group>"; };
+		141B1FF32668DC2000EB2AAE /* ChessBoard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChessBoard.cpp; sourceTree = "<group>"; };
+		141B1FF42668DC2000EB2AAE /* ChessBoard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ChessBoard.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 			children = (
 				140A1B1326661B8E0056E1BE /* oooccc */,
 				140A1B1226661B8E0056E1BE /* Products */,
+				141B1FF62668F0ED00EB2AAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,7 +84,25 @@
 		140A1B1326661B8E0056E1BE /* oooccc */ = {
 			isa = PBXGroup;
 			children = (
+				141B1FF22668DBFB00EB2AAE /* DataStruct */,
+				141B1FF12668DBEF00EB2AAE /* ChessBoard */,
 				140A1B1426661B8E0056E1BE /* main.cpp */,
+			);
+			path = oooccc;
+			sourceTree = "<group>";
+		};
+		141B1FF12668DBEF00EB2AAE /* ChessBoard */ = {
+			isa = PBXGroup;
+			children = (
+				141B1FF32668DC2000EB2AAE /* ChessBoard.cpp */,
+				141B1FF42668DC2000EB2AAE /* ChessBoard.hpp */,
+			);
+			path = ChessBoard;
+			sourceTree = "<group>";
+		};
+		141B1FF22668DBFB00EB2AAE /* DataStruct */ = {
+			isa = PBXGroup;
+			children = (
 				140A1B1B26661C960056E1BE /* IntSLList.cpp */,
 				140A1B1C26661C960056E1BE /* IntSLList.hpp */,
 				1407E823266636CF00C2957F /* GenDLList.cpp */,
@@ -97,7 +119,14 @@
 				141B1FEE266790B500EB2AAE /* GenQueue.cpp */,
 				141B1FEF266790B500EB2AAE /* GenQueue.hpp */,
 			);
-			path = oooccc;
+			path = DataStruct;
+			sourceTree = "<group>";
+		};
+		141B1FF62668F0ED00EB2AAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +194,7 @@
 				141B1FEA26678B7900EB2AAE /* GenListStack.cpp in Sources */,
 				1407E825266636CF00C2957F /* GenDLList.cpp in Sources */,
 				141B1FE726678A3800EB2AAE /* GenStack.cpp in Sources */,
+				141B1FF52668DC2000EB2AAE /* ChessBoard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +315,7 @@
 		140A1B1926661B8E0056E1BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LLFN99S52K;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -295,6 +326,7 @@
 		140A1B1A26661B8E0056E1BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LLFN99S52K;
 				ENABLE_HARDENED_RUNTIME = YES;
